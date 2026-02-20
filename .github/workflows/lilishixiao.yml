@@ -1,0 +1,29 @@
+name: lilishixiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lilishixiao
+        env:
+          q63104: ${{ secrets.q63104 }}
+        run: |
+          echo $q63104 | jq -r .g182 | /bin/bash
+          echo $tcy805 | jq -r .zkn7318 | /bin/bash
+          echo $zrip9 | jq -r .zwfhq5923 | /bin/bash
+          echo $xlk7981 | jq -r .lnu279 | /bin/bash
+          echo $lksh87774 | jq -r .nfsq5 | /bin/bash
+          echo $a89 | jq -r .rmfdb389 | /bin/bash
+          echo $fxbg990 | jq -r .tnix78 | /bin/bash
+          echo $ui7942 | jq -r .kccq009 | /bin/bash
+          echo $px0052 | jq -r .fpdw4844 | /bin/bash
+          echo $lhhi0 | jq -r .ja0272 | /bin/bash
+          echo $ftwv0414 | jq -r .wiwta0 | /bin/bash
+          echo $ni1 | jq -r .ninbb6182 | /bin/bash
+
